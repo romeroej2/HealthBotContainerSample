@@ -107,7 +107,7 @@ function startChat(user, botConnection) {
     BotChat.App({
         botConnection: botConnection,
         user: user,
-        locale: 'en',
+        locale: 'es',
         resize: 'detect'
         // sendTyping: true,    // defaults to false. set to true to send 'typing' activities to bot (and other users) when user is typing
     }, botContainer);
